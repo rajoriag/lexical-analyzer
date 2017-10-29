@@ -1,4 +1,4 @@
-//C program of lexical analyzer
+//C program of lexical analyzer which reads source code from file and then generate tokens.
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
