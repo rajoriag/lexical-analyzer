@@ -1,2 +1,2 @@
 # practice
-this is practice project to being with github 
+Simple lexical analyzer which reads source code from file and then generate tokens.
