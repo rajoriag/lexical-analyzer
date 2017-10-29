@@ -3,6 +3,7 @@
 #include<string.h>
 #include<ctype.h>
  
+// function to check keywords
 int isKeyword(char buffer[]){
     char keywords[32][10] = {"auto","break","case","char","const","continue","default",
                             "do","double","else","enum","extern","float","for","goto",
@@ -21,6 +22,7 @@ int isKeyword(char buffer[]){
     return flag;
 }
  
+//main function
 int main(){
     char ch, buffer[15], operators[] = "+-*/%=";
     FILE *fp;
