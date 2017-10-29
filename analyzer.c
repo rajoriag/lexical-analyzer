@@ -1,3 +1,4 @@
+//C program of lexical analyzer
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
