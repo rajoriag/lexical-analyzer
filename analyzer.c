@@ -5,7 +5,7 @@
 #include<ctype.h>
  
 // function to check keywords
-int isKeyword(char buffer[]){
+int isKeyword(char buffer[]) {
     char keywords[32][10] = {"auto","break","case","char","const","continue","default",
                             "do","double","else","enum","extern","float","for","goto",
                             "if","int","long","register","return","short","signed",
@@ -13,8 +13,8 @@ int isKeyword(char buffer[]){
                             "unsigned","void","volatile","while"};
     int i, flag = 0;
     
-    for(i = 0; i < 32; ++i){
-        if(strcmp(keywords[i], buffer) == 0){
+    for(i = 0; i < 32; ++i) {
+        if(strcmp(keywords[i], buffer) == 0) {
             flag = 1;
             break;
         }
@@ -23,7 +23,7 @@ int isKeyword(char buffer[]){
 }
  
 //main function
-int main(){
+int main() {
     char ch, buffer[15], operators[] = "+-*/%=";
     FILE *fp;
     int i,j=0;
