@@ -53,8 +53,6 @@ int main(){
                        printf("%s is indentifier\n", buffer);
            }
     }
-    
     fclose(fp);
-    
     return 0;
 }
