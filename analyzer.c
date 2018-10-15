@@ -53,11 +53,8 @@ int main(){
                        printf("%s is keyword\n", buffer);
                    else
                        printf("%s is indentifier\n", buffer);
-           }
-           
+           }      
     }
-    
     fclose(fp);
-    
     return 0;
 }
